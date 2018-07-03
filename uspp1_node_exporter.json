@@ -1,8 +1,8 @@
 [
     {
         "labels": {
-            "dc": "uspp1",????????""""";;;;;jbkbbk 
-            "node_type": "admin_proxy"jhlk..
+            "dc": "uspp1",????????
+            "node_type": "admin_pk..
         }, 
         "targets": [
             "fpclmp0060.uspp1.oraclecloud.com:9100", 
