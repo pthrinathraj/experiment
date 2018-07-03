@@ -1,0 +1,144 @@
+[
+    {
+        "labels": {
+            "dc": "uspp1",????????""""";;;;; 
+            "node_type": "admin_proxy"
+        }, 
+        "targets": [
+            "fpclmp0060.uspp1.oraclecloud.com:9100", 
+            "fpclmp0061.uspp1.oraclecloud.com:9100"
+        ]
+    }, 
+    {
+        "labels": {
+            "dc": "uspp1", 
+            "node_type": "commit"
+        }, 
+        "targets": [
+            "fpclmp0011.uspp1.oraclecloud.com:9100", 
+            "fpclmp0015.uspp1.oraclecloud.com:9100"
+        ]
+    }, 
+    {
+        "labels": {
+            "dc": "uspp1", 
+            "node_type": "replication"
+        }, 
+        "targets": [
+            "fpclmp0064.uspp1.oraclecloud.com:9100", 
+            "fpclmp0068.uspp1.oraclecloud.com:9100"
+        ]
+    }, 
+    {
+        "labels": {
+            "dc": "uspp1", 
+            "node_type": "proxy"
+        }, 
+        "targets": [
+            "fpclmp0059.uspp1.oraclecloud.com:9100", 
+            "fpclmp0062.uspp1.oraclecloud.com:9100", 
+            "fpclmp0063.uspp1.oraclecloud.com:9100", 
+            "fpclmp0065.uspp1.oraclecloud.com:9100"
+        ]
+    }, 
+    {
+        "labels": {
+            "dc": "uspp1", 
+            "node_type": "replicationAuditor"
+        }, 
+        "targets": [
+            "fpclmp0066.uspp1.oraclecloud.com:9100"
+        ]
+    }, 
+    {
+        "labels": {
+            "dc": "uspp1", 
+            "node_type": "unclassified"
+        }, 
+        "targets": [
+            "fpclmp0016.uspp1.oraclecloud.com:9100", 
+            "fpclmp0019.uspp1.oraclecloud.com:9100", 
+            "fpclmp0067.uspp1.oraclecloud.com:9100"
+        ]
+    }, 
+    {
+        "labels": {
+            "dc": "uspp1", 
+            "node_type": "universe"
+        }, 
+        "targets": [
+            "fpclmp0010.uspp1.oraclecloud.com:9100", 
+            "fpclmp0014.uspp1.oraclecloud.com:9100"
+        ]
+    }, 
+    {
+        "labels": {
+            "dc": "uspp1", 
+            "node_type": "storage", 
+            "storage_zone": "1"
+        }, 
+        "targets": [
+            "fpclsp0001.uspp1.oraclecloud.com:9100", 
+            "fpclsp0002.uspp1.oraclecloud.com:9100", 
+            "fpclsp0003.uspp1.oraclecloud.com:9100", 
+            "fpclsp0004.uspp1.oraclecloud.com:9100", 
+            "fpclsp0005.uspp1.oraclecloud.com:9100"
+        ]
+    }, 
+    {
+        "labels": {
+            "dc": "uspp1", 
+            "node_type": "storage", 
+            "storage_zone": "2"
+        }, 
+        "targets": [
+            "fpclsp0006.uspp1.oraclecloud.com:9100", 
+            "fpclsp0007.uspp1.oraclecloud.com:9100", 
+            "fpclsp0008.uspp1.oraclecloud.com:9100", 
+            "fpclsp0009.uspp1.oraclecloud.com:9100", 
+            "fpclsp0010.uspp1.oraclecloud.com:9100"
+        ]
+    }, 
+    {
+        "labels": {
+            "dc": "uspp1", 
+            "node_type": "storage", 
+            "storage_zone": "3"
+        }, 
+        "targets": [
+            "fpclsp0011.uspp1.oraclecloud.com:9100", 
+            "fpclsp0012.uspp1.oraclecloud.com:9100", 
+            "fpclsp0013.uspp1.oraclecloud.com:9100", 
+            "fpclsp0014.uspp1.oraclecloud.com:9100", 
+            "fpclsp0015.uspp1.oraclecloud.com:9100"
+        ]
+    }, 
+    {
+        "labels": {
+            "dc": "uspp1", 
+            "node_type": "storage", 
+            "storage_zone": "4"
+        }, 
+        "targets": [
+            "fpclsp0016.uspp1.oraclecloud.com:9100", 
+            "fpclsp0017.uspp1.oraclecloud.com:9100", 
+            "fpclsp0018.uspp1.oraclecloud.com:9100", 
+            "fpclsp0019.uspp1.oraclecloud.com:9100", 
+            "fpclsp0020.uspp1.oraclecloud.com:9100"
+        ]
+    }, 
+    {
+        "labels": {
+            "dc": "uspp1", 
+            "node_type": "storage", 
+            "storage_zone": "5"
+        }, 
+        "targets": [
+            "fpclsp0021.uspp1.oraclecloud.com:9100", 
+            "fpclsp0022.uspp1.oraclecloud.com:9100", 
+            "fpclsp0023.uspp1.oraclecloud.com:9100", 
+            "fpclsp0024.uspp1.oraclecloud.com:9100", 
+            "fpclsp0025.uspp1.oraclecloud.com:9100"
+        ]
+    }
+]
